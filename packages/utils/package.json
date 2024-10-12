@@ -1,0 +1,14 @@
+{
+  "name": "@mylib/utils",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3",
+    "vitest": "^0.31.1"
+  }
+}

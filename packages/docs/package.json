@@ -1,0 +1,17 @@
+{
+  "name": "@mylib/docs",
+  "version": "1.0.0",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@mylib/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/vue3": "^7.0.20",
+    "@storybook/addon-essentials": "^7.0.20",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
